@@ -1,5 +1,6 @@
 import request from "supertest";
 import app from "../src/app.js";
+import "./setupTestDB.js";
 
 let token;
 let taskId;
